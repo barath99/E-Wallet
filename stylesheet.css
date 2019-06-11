@@ -29,36 +29,240 @@ h2{
   margin-bottom:30px;
 }
 
-@media only screen and (max-width: 625px) {
+@media only screen and (max-width: 730px) {
   .screen{
+    max-width: 700px;
     background-color: #f0f1f3;
-    width:80%;
+    width:96%;
     height:auto;
     border-radius: 30px;
-    box-shadow: 0 2px 10px -5px #777;
-    padding-top:5%;
-    padding-left:5%;
-    padding-right: 5%;
-    padding-botton:5px;
-    margin-top: 20px;
+    box-shadow: 0 2px 10px -5px #000000;
+    padding-top:2%;
+    padding-bottom:5px;
+    margin-top: 3vh;
+    
+  }
+  #openWallet{
+    font-family: 'Righteous', cursive;
+    font-size: 1.1em;
+    padding:0;
+    max-width: 700px;
+    background-color: #009975;
+    width:96%;
+    height:45px;
+    margin-top:40px;
+    border: solid;
+    border-color: #009975;  
+    border-radius: 20px;
+    color: #ffffff;
+    outline: none;
+    box-shadow: 0 2px 10px -5px #000000;
+    margin-bottom: 3vh;
+
+  }
+  #openWallet:hover{
+    font-family: 'Righteous', cursive;
+    font-size: 1.1em;
+    margin-top:40px;
+    padding:0;
+    max-width: 700px;
+    background-color: #009975;
+    width:96%;
+    height:45px;
+    border: solid;
+    border-color: #009975;
+    border-radius: 20px;
+    color: #ffffff;
+    outline: none;
+    box-shadow: 0 2px 18px -12px #004a2f;
+    margin-bottom: 3vh;
+  }
+  #openWallet:active{
+    font-family: 'Righteous', cursive;
+    font-size: 1.1em;
+    margin-top:40px;
+    padding:0;
+    max-width: 700px;
+    background-color: #009975;
+    width:96%;
+    height:45px;
+    border: solid;
+    border-color: #009975;
+    border-radius: 20px;
+    color: #ffffff;
+    outline: none;
+    box-shadow: 0 2px 18px -12px #004a2f;
+    margin-bottom: 3vh;
+    position: relative;
+    top:1px;
   }
 }
 
-
-
-@media only screen and (max-width: 1930px) and (min-width: 625px) {
+@media only screen and (max-width: 1930px) and (min-width: 730px) {
   .screen{
     background-color: #f0f1f3;
-    width:500px;
+    width:700px;
     height:auto;
     border-radius: 30px;
-    box-shadow: 0 2px 10px -5px #777;
+    box-shadow: 0 2px 10px -5px #000000;
     padding-top:2%;
-    padding-left:2%;
-    padding-right: 2%;
     padding-bottom: 2px;
-    margin-top: 20px;
-
-
+    margin-top: 3vh;
+    
   }
+   #openWallet{
+    font-family: 'Righteous', cursive;
+    font-size: 1.1em;
+    margin-top:40px;
+    padding:0;
+    width:700px;
+    height:45px;
+    background-color:#009975;
+    border: solid;
+    border-color: #009975;
+    border-radius: 20px;
+    color: #ffffff;
+    outline: none;
+    box-shadow: 0 2px 18px -12px #000000;
+    margin-bottom: 3vh;
+  }
+  #openWallet:hover{
+    font-family: 'Righteous', cursive;
+    font-size: 1.1em;
+    margin-top:40px;
+    padding:0;
+    width:700px;
+    height:45px;
+    background-color:#009975;
+    border: solid;
+    border-color: #009975;
+    border-radius: 20px;
+    color: #ffffff;
+    outline: none;
+    box-shadow: 0 2px 18px -12px #004a2f;
+    margin-bottom: 3vh;
+  }
+  #openWallet:active{
+    font-family: 'Righteous', cursive;
+    font-size: 1.1em;
+    margin-top:40px;
+    padding:0;
+    width:700px;
+    height:45px;
+    background-color:#009975;
+    border: solid;
+    border-color: #009975;
+    border-radius: 20px;
+    color: #ffffff;
+    outline: none;
+    box-shadow: 0 2px 18px -12px #004a2f;
+    margin-bottom: 3vh;
+    position: relative;
+    top:1px;
+  }
+} 
+.screen1{
+    background-color: #f0f1f3;
+    width:575px;
+    height:auto;
+    border-radius: 30px;
+    box-shadow: 0 2px 10px -5px #000000;
+    padding-top:2%;
+    padding-bottom: 2px;
+    margin-top: 10vh;
+    
+  }
+#login-header-img{
+  width:50%;
+  height:auto;
+  margin-top: 30px;
+  margin-bottom:30px;
+}
+#chk-btn1{
+    font-family: 'Righteous', cursive;
+    background-color: transparent;
+    height:50px;
+    font-size: 1.1em;
+    margin-top:25px;
+    color: #000000;
+    border:solid;
+    border-color: transparent;
+    border-width: 1.25px;
+    outline: none;
+    margin-bottom: 3vh;
+    margin-left:20px;
+    margin-right:20px;
+}
+#chk-btn2{
+    font-family: 'Righteous', cursive;
+    background-color: transparent;
+    height:50px;
+    font-size: 1.1em;
+    margin-top:25px;
+    color: #000000;
+    border:solid;
+    border-color: transparent;
+    border-width: 1.25px;
+    outline: none;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom: 3vh;
+}
+
+.inputHolders{
+  border:solid;
+  border-color: transparent transparent #d3d6db;
+  background-color: transparent;
+  outline:none;
+  border-radius: 5px;
+  margin:20px;
+  height: 35px;
+  width:350px;
+  border-width: 1.25px;
+  margin-bottom:3%;
+}
+#password{
+  margin-bottom:55px;
+}
+.Remember{
+  position: relative;
+  right:120px;
+  bottom:15px;
+  margin-bottom: 55px;
+}
+
+#setPassword{
+  margin-bottom: 55px;
+}
+#login-btn{
+  font-family: 'Righteous', cursive;
+  font-size: 1.1em;
+  margin-top:10px;
+  padding:0;
+  width:350px;
+  height:45px;
+  background-color:#009975;
+  border: solid;
+  border-color: #009975;
+  border-radius: 8px;
+  color: #ffffff;
+  outline: none;
+  box-shadow: 0 2px 18px -12px #000000;
+  margin-bottom: 55px;
+}
+#reg-btn{
+  font-family: 'Righteous', cursive;
+  font-size: 1.1em;
+  margin-top:10px;
+  padding:0;
+  width:350px;
+  height:45px;
+  background-color:#ffbd39;
+  border: solid;
+  border-color: #ffbd39;
+  border-radius: 8px;
+  color: #ffffff;
+  outline: none;
+  box-shadow: 0 2px 18px -12px #000000;
+  margin-bottom: 55px;
 }
