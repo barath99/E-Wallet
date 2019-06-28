@@ -1,2 +1,2 @@
 # E-Wallet
-Your Personal Economy Manager application. A Web application which is full-stack developed.
+Your Personal Economy Manager application. Requires Node.js, Express, MySql, and a few more npm packages.
