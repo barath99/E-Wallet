@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+  <meta charset="UTF-8" />
+  <link href="stylesheet.css" rel="stylesheet" />
+  <link href="animate.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.png" />
+  <title>E-Wallet | Dashboard</title>
+</head>
+
+<body class="bg">
+  <div class="">
+    <center>
+      <div >
+        <img class="animated shake" id="warning" src="warning.png" style="height: 450px;" />
+        <div class="screen2">
+          <h2 style="color:#ff4949">Incorrect Username or Password! Try Again.</h2>
+        </div>
+        <form  method="post">
+          <button id="splash-btn" type="submit" style="display:none"></button>
+        </form>
+      </div>
+    </center>
+  </div>
+  <script>
+    setTimeout(function() {
+        var selfclicker = document.getElementById("splash-btn");
+        selfclicker.click();
+    }, 3000);
+  </script>
+</body>
+
+</html>

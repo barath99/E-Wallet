@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+  <meta charset="UTF-8" />
+  <link href="stylesheet.css" rel="stylesheet" />
+  <link href="animate.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.png" />
+  <title>E-Wallet | Dashboard</title>
+</head>
+
+<body class="bg animated flipInX">
+  <div class="">
+    <center>
+      <div class="screen3">
+        <img id="splash" src="splash1.jpg" style="height: 450px;" />
+        <div>
+          <h2 id="copyright">© B-Studios</h2>
+          <h2>Logged In Successfully!</h2>
+        </div>
+        <form  method="post">
+          <button id="splash-btn" type="submit" style="display:none"></button>
+        </form>
+      </div>
+    </center>
+  </div>
+  <script>
+    setTimeout(function() {
+        var selfclicker = document.getElementById("splash-btn");
+       selfclicker.click();
+    }, 5000);
+  </script>
+</body>
+
+</html>

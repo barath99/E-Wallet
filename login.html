@@ -12,22 +12,21 @@
   <body class="bg animated fadeIn">
     <center>
    	 <div class="screen1">
-      <img id="login-header-img" src="b-gameFactory.png"><br> 
+      <img id="login-header-img" src="b-gameFactory.png"><br>
       <button type="button" id="chk-btn1" onclick="func_loginBtn()">LOGIN TO YOUR ACCOUNT</button>
       <button type="button" id="chk-btn2" onclick="func_registerBtn()">REGISTER</button>
 
       <div>
-      <form id="login-form">
-      	<input id="username" type="text" placeholder="Username" class="inputHolders" required autofocus></br>
-      	<input id="password" type="password" placeholder="Password" class="inputHolders" required></br>
-      	<input class="Remember" type="checkbox" name="RememberMe"><Label class="Remember">Remember Me</Label><br>
+      <form id="login-form" method="POST">
+      	<input name="username" id="username" type="text" placeholder="Username" class="inputHolders" required autofocus></br>
+      	<input name="password" id="password" type="password" placeholder="Password" class="inputHolders" required></br>
+      	<input id="RemMyLogin" class="Remember" type="checkbox" name="RememberMe"><Label class="Remember">Remember Me</Label><br>
       	<button id="login-btn" type="submit">LOGIN</button>
       </form>
-      <form id="register-form">
-      	<input id="name" type="text" placeholder="Name" class="inputHolders" required></br>
-      	<input id="setUsername" type="text" placeholder="Enter Username" class="inputHolders" required></br>
-      	<input id="setPassword" type="password" placeholder="Enter Password" class="inputHolders" required></br>
-      	<input class="Remember" type="checkbox" name="RememberMe"><Label class="Remember">Remember Me</Label><br>
+      <form id="register-form" method="POST">
+      	<input name="setname" id="setname" type="text" placeholder="Name" class="inputHolders" required></br>
+      	<input name="setUsername"  id="setUsername" type="text" placeholder="Enter Username" class="inputHolders" required></br>
+      	<input name="setPassword"  id="setPassword" type="password" placeholder="Enter Password" class="inputHolders" required></br>
       	<button id="reg-btn" type="submit">REGISTER</button>
       </form>
       </div>
@@ -35,5 +34,5 @@
      </div>
     </center>
 	<script type="text/javascript" src="index.js"></script>
-  </body>  
+  </body>
 </html>
